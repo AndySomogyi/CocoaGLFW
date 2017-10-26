@@ -181,7 +181,6 @@ void createGlWindow(int width, int height, int xpos, int ypos) {
 }
     
 void closeGlWindow() {
-    glfwPollEvents();
     glfwDestroyWindow(win);
 }
     
