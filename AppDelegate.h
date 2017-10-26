@@ -4,4 +4,10 @@
 
 @property (assign, nonatomic) IBOutlet NSWindow *window;
 
+-(IBAction)testButtonClicked:(id)sender;
+
+-(IBAction)stepMsg:(id)sender;
+
+-(IBAction)closeGlWindow:(id)sender;
+
 @end
