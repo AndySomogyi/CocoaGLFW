@@ -107,8 +107,6 @@ static void window_refresh_callback(GLFWwindow* window)
     glDrawArrays(GL_TRIANGLES, 0, 3);
     
     glfwSwapBuffers(window);
-    
-    glfwPollEvents();
 }
 
 static void window_close_callback(GLFWwindow* window)
